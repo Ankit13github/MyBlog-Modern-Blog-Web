@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📝 MyBlog - Modern Blog for Writers</title>
+    <meta name="description" content="A clean, minimal blog platform for writers to share their stories and insights.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <h1>📝 MyBlog</h1>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#blog" class="nav-link">Blog</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to MyBlog</h1>
+            <p class="hero-subtitle">A minimal, elegant platform for writers to share their stories and insights</p>
+            <button class="cta-button" onclick="document.getElementById('blog').scrollIntoView({behavior: 'smooth'})">
+                Explore Stories
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About MyBlog</h2>
+            <div class="about-content">
+                <p>MyBlog is designed for writers who value simplicity and elegance. Our platform focuses on what matters most - your content. With a clean, distraction-free interface, you can share your thoughts, stories, and expertise with the world.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Articles Published</p>
+                    </div>
+                    <div class="stat">
+                        <h3>1000+</h3>
+                        <p>Monthly Readers</p>
+                    </div>
+                    <div class="stat">
+                        <h3>7</h3>
+                        <p>Categories</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Latest Stories</h2>
+            
+            <!-- Search and Filter Controls -->
+            <div class="blog-controls">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search articles..." class="search-input">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                
+                <div class="filter-container">
+                    <select id="category-filter" class="category-filter">
+                        <option value="all">All Categories</option>
+                        <option value="Tech">Tech</option>
+                        <option value="Travel">Travel</option>
+                        <option value="Lifestyle">Lifestyle</option>
+                        <option value="Food">Food</option>
+                        <option value="Tutorials">Tutorials</option>
+                        <option value="Reviews">Reviews</option>
+                        <option value="Personal">Personal</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Blog Posts Grid -->
+            <div class="blog-grid" id="blog-grid">
+                <!-- Posts will be dynamically loaded here -->
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container">
+                <button id="load-more" class="load-more-btn" style="display: none;">Load More Posts</button>
+            </div>
+        </div>
+    </section>
+
+  <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <div class="contact-info-section">
+                <h3>Let's Start a Conversation</h3>
+                <p>Have a story to share, want to collaborate, or just want to say hello? I'd love to hear from you. Drop me a message and I'll get back to you as soon as possible.</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>am6374310@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>1234567890</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Indore M.P. (India)</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Response within 24 hours</span>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://x.com/AnkitMalviya787?t=7xwxZKZkKaR0DxoA9LpO7Q&s=09" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ankit-malviya-b697b928b" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <!-- <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a> -->
+                    <a href="https://github.com/Ankit13github" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Send Me a Message</h3>
+                <form id="contact-form">
+                    <div id="form-messages"></div>
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project, question, or just say hello..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="form-submit" id="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3> MyBlog</h3>
+                    <p>Crafting stories, sharing insights</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Categories</h4>
+                        <ul>
+                            <li><a href="#" data-category="Tech">Tech</a></li>
+                            <li><a href="#" data-category="Travel">Travel</a></li>
+                            <li><a href="#" data-category="Lifestyle">Lifestyle</a></li>
+                            <li><a href="#" data-category="Food">Food</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 MyBlog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Post Preview Modal -->
+    <div id="post-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">×</span>
+            <div class="modal-body">
+                <img id="modal-image" src="" alt="" class="modal-image">
+                <div class="modal-info">
+                    <h2 id="modal-title"></h2>
+                    <div class="modal-meta">
+                        <span id="modal-author"></span>
+                        <span id="modal-date"></span>
+                        <span id="modal-category" class="category-tag"></span>
+                    </div>
+                    <p id="modal-snippet"></p>
+                    <div id="modal-tags" class="tags"></div>
+                    <div class="modal-actions">
+                        <button class="btn-primary" id="modal-read-more">Read Full Article</button>
+                        <div class="social-share">
+                            <button class="share-btn" data-platform="twitter"><i class="fab fa-twitter"></i></button>
+                            <button class="share-btn" data-platform="facebook"><i class="fab fa-facebook"></i></button>
+                            <button class="share-btn" data-platform="linkedin"><i class="fab fa-linkedin"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
