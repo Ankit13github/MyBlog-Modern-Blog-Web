@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Exploring the Swiss Alps: A Journey Through Nature's Masterpiece",
+    "category": "Travel",
+    "author": "Jane Doe",
+    "date": "2024-01-15",
+    "image": "The Swiss Alp.jpeg",
+    "snippet": "A breathtaking journey through the Swiss Alps, discovering hidden valleys, pristine lakes, and charming mountain villages that seem untouched by time.",
+    "content": "The Swiss Alps offer some of the most spectacular scenery in the world. From the iconic Matterhorn to the serene Lake Geneva, every corner reveals a new wonder. This journey took me through quaint villages where time seems to stand still, and up mountain peaks where the air is crisp and the views are endless. The experience of watching sunrise paint the snow-capped peaks in golden hues is something that will stay with me forever.",
+    "tags": ["mountains", "europe", "nature", "photography", "adventure"],
+    "readTime": "8 min read"
+  },
+  {
+    "id": 2,
+    "title": "10 CSS Tricks Every Frontend Developer Should Master",
+    "category": "Tech",
+    "author": "John Smith",
+    "date": "2024-01-12",
+    "image": "10 CSS Tricks.jpg",
+    "snippet": "CSS can do more than you think. Here are 10 powerful tips and tricks that will elevate your frontend development skills and create stunning user interfaces.",
+    "content": "Modern CSS has evolved tremendously, offering developers powerful tools to create beautiful and responsive designs. From CSS Grid and Flexbox to custom properties and animations, these techniques will help you build better websites. We'll explore advanced selectors, pseudo-elements, and modern layout techniques that can replace complex JavaScript solutions.",
+    "tags": ["frontend", "css", "web design", "development", "tips"],
+    "readTime": "12 min read"
+  },
+  {
+    "id": 3,
+    "title": "The Ultimate Guide to Brewing Perfect Coffee at Home",
+    "category": "Food",
+    "author": "Maria Garcia",
+    "date": "2024-01-10",
+    "image": "The Ultimate.jpeg",
+    "snippet": "Transform your morning routine with expert tips on brewing the perfect cup of coffee. From bean selection to brewing methods, master the art of home coffee making.",
+    "content": "Great coffee starts with great beans, but the brewing process is equally important. Whether you prefer pour-over, French press, or espresso, understanding the fundamentals of extraction, grind size, and water temperature will dramatically improve your coffee experience. We'll explore different brewing methods, equipment recommendations, and troubleshooting common issues.",
+    "tags": ["coffee", "brewing", "morning routine", "lifestyle", "guide"],
+    "readTime": "10 min read"
+  },
+  {
+    "id": 4,
+    "title": "Embracing Minimalism: Less is More in Modern Living",
+    "category": "Lifestyle",
+    "author": "Sarah Johnson",
+    "date": "2024-01-08",
+    "image": "Embracing.jpeg",
+    "snippet": "Discover how minimalism can transform your life, reduce stress, and help you focus on what truly matters. A practical guide to decluttering your space and mind.",
+    "content": "Minimalism isn't about living with nothing; it's about living with intention. By removing excess possessions and distractions, we create space for what truly adds value to our lives. This philosophy extends beyond physical belongings to digital spaces, relationships, and commitments. Learn practical strategies for decluttering, maintaining a minimalist mindset, and finding joy in simplicity.",
+    "tags": ["minimalism", "decluttering", "mindfulness", "simple living", "wellness"],
+    "readTime": "7 min read"
+  },
+  {
+    "id": 5,
+    "title": "React Hooks: A Complete Guide to Modern React Development",
+    "category": "Tech",
+    "author": "Alex Chen",
+    "date": "2024-01-05",
+    "image": "react.jpeg",
+    "snippet": "Master React Hooks and transform your React development workflow. Learn useState, useEffect, and custom hooks with practical examples and best practices.",
+    "content": "React Hooks revolutionized how we write React components, making functional components more powerful than ever. This comprehensive guide covers all built-in hooks, explains when and how to use them, and demonstrates how to create custom hooks for reusable logic. We'll also explore advanced patterns and performance optimization techniques.",
+    "tags": ["react", "javascript", "hooks", "frontend", "tutorial"],
+    "readTime": "15 min read"
+  },
+  {
+    "id": 6,
+    "title": "Tokyo Food Adventures: A Culinary Journey Through Japan's Capital",
+    "category": "Food",
+    "author": "Hiroshi Tanaka",
+    "date": "2024-01-03",
+    "image": "Tokyo Food Adventures.jpeg",
+    "snippet": "Explore Tokyo's incredible food scene, from street food stalls to Michelin-starred restaurants. Discover hidden gems and must-try dishes in Japan's culinary capital.",
+    "content": "Tokyo offers one of the world's most diverse and exciting food scenes. From the famous Tsukiji Fish Market to hidden ramen shops in narrow alleyways, every meal is an adventure. This guide takes you through the best neighborhoods for food lovers, explains Japanese dining etiquette, and highlights both traditional dishes and modern fusion cuisine that makes Tokyo a global culinary destination.",
+    "tags": ["tokyo", "japanese cuisine", "travel", "food culture", "restaurants"],
+    "readTime": "11 min read"
+  },
+  {
+    "id": 7,
+    "title": "Building Responsive Websites: A Mobile-First Approach",
+    "category": "Tutorials",
+    "author": "Emma Wilson",
+    "date": "2024-01-01",
+    "image": "Building Responsive Websi.png",
+    "snippet": "Learn how to create websites that look great on all devices. Master responsive design principles, CSS Grid, Flexbox, and mobile-first development strategies.",
+    "content": "With mobile traffic accounting for over 50% of web usage, responsive design is no longer optional. This tutorial covers the mobile-first approach to web development, teaching you how to create flexible layouts that adapt to any screen size. We'll explore CSS Grid, Flexbox, media queries, and modern techniques for creating truly responsive experiences.",
+    "tags": ["responsive design", "mobile-first", "css", "web development", "tutorial"],
+    "readTime": "14 min read"
+  },
+  {
+    "id": 8,
+    "title": "My Journey to Digital Nomadism: Lessons Learned",
+    "category": "Personal",
+    "author": "David Rodriguez",
+    "date": "2023-12-28",
+    "image": "My Journey to Digita.jpeg",
+    "snippet": "Two years into my digital nomad journey, I share the challenges, victories, and lessons learned while working remotely from around the world.",
+    "content": "Becoming a digital nomad seemed like a dream come true, but the reality involves unique challenges and unexpected rewards. From finding reliable internet in remote locations to maintaining work-life balance while constantly traveling, this personal account shares honest insights about the nomadic lifestyle. Learn about the tools, mindset, and strategies that make remote work successful.",
+    "tags": ["digital nomad", "remote work", "travel", "lifestyle", "personal growth"],
+    "readTime": "9 min read"
+  }
+]
