@@ -52,7 +52,7 @@ myblog/
 
 Clone or download this repository.
 
-git clone https://github.com/your-username/myblog.git
+git clone https://github.com/Ankit13github/MyBlog-Modern-Blog-Web.git
 
 
 Open the index.html file in your browser.
